@@ -34,7 +34,11 @@ rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
 
 # Build and install.
 ````
+#the command catkin_make_isolated may fail with error "virtual memory exhausted: Cannot allocate memory".
+#Increase your memory to 4G if Linux running on VM, such as VirtualBox or Parallels.
+
 catkin_make_isolated --install --use-ninja
+
 source install_isolated/setup.bash
 echo "source ~/google_ws/install_isolated/setup.bash" >> ~/.bashrc
 

@@ -49,6 +49,8 @@ echo "source ~/google_ws/install_isolated/setup.bash" >> ~/.bashrc
 
 * Run roslaunch in Linux Window as it will start rviz.
 
+* The launch files will bring up roscore and rviz automatically.
+
 ````
 # Download the 2D backpack example bag.
 wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag

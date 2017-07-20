@@ -1,0 +1,11 @@
+<launch>
+    <param name="/use_sim_time" value="false" />
+
+    <node name="cartographer_node" pkg="cartographer_ros"
+          type="cartographer_node" args="
+          -configuration_directory $(find numob_google_cartographer)/param
+          -configuration_basename default_2d.lua"
+          output="screen">
+        <remap from="map" to="slam_map" />
+    </node>
+</launch>

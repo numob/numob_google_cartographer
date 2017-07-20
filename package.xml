@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>numob_google_cartographer</name>
+  <version>0.0.1</version>
+  <description>The numob google_cartographer ros package</description>
+
+  <maintainer email="z@numob.com">Peijun Zhao</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/numob/google_cartographer.git</url>
+  <url type="repository"></url>
+  <url type="bugtracker"></url>
+
+  <author>Peijun Zhao</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>numob_google_cartographer</run_depend>
+
+
+</package>
